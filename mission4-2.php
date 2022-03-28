@@ -4,9 +4,9 @@
 
 
     // DB接続設定
-    $dsn = 'mysql:dbname=tb230896db;host=localhost';
-    $user = 'tb-230896';
-    $password = 'UJX8ThVnUS';
+    $dsn = 'mysql:dbname=***;host=localhost';
+    $user = '***';
+    $password = '***';
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     $sql = "CREATE TABLE IF NOT EXISTS tbtest"
     ." ("
